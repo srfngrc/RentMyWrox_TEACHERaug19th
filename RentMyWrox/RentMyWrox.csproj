@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -569,6 +570,10 @@
     <Compile Include="Migrations\201512131619502_notifications.Designer.cs">
       <DependentUpon>201512131619502_notifications.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908212132399_data annotations.cs" />
+    <Compile Include="Migrations\201908212132399_data annotations.Designer.cs">
+      <DependentUpon>201908212132399_data annotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Hobby.cs" />
     <Compile Include="Models\HobbyReportItem.cs" />
@@ -632,6 +637,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201512131619502_notifications.resx">
       <DependentUpon>201512131619502_notifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908212132399_data annotations.resx">
+      <DependentUpon>201908212132399_data annotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -390,3 +390,4 @@ C:\VSRepositories\RentMyWrox_TEACHERaug19th\RentMyWrox\obj\Debug\RentMyWrox.cspr
 C:\VSRepositories\RentMyWrox_TEACHERaug19th\RentMyWrox\obj\Debug\RentMyWrox.csproj.CopyComplete
 C:\VSRepositories\RentMyWrox_TEACHERaug19th\RentMyWrox\obj\Debug\RentMyWrox.dll
 C:\VSRepositories\RentMyWrox_TEACHERaug19th\RentMyWrox\obj\Debug\RentMyWrox.pdb
+C:\VSRepositories\RentMyWrox_TEACHERaug19th\RentMyWrox\obj\Debug\RentMyWrox.Migrations.dataannotations.resources
