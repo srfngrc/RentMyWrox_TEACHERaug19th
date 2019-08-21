@@ -108,8 +108,7 @@ namespace RentMyWrox.Controllers
                     context.SaveChanges();
                     return RedirectToAction("Index");
                 }
-                ViewBag.ServerValidationErrors = ConvertValidationErrorsToString(validationEr
-                rors);
+                ViewBag.ServerValidationErrors = ConvertValidationErrorsToString(validationErrors);
                 return View("Manage", item);
             }
         }
